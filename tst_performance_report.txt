@@ -1,0 +1,40 @@
+============================================================
+TERNARY SEARCH TREE PERFORMANCE ANALYSIS REPORT
+============================================================
+
+INSERT PERFORMANCE:
+--------------------
+  Total time for 1000 words: 0.0049s
+  Total time for 5000 words: 0.0302s
+  Total time for 10000 words: 0.0585s
+  Total time for 20000 words: 0.1268s
+  Total time for 40000 words: 0.2773s
+  Peak memory usage (for 40000 words): 10.48MB
+
+SEARCH PERFORMANCE:
+-------------------
+  Total time for 1000 searches: 0.0024s
+  Total time for 5000 searches: 0.0155s
+  Total time for 10000 searches: 0.0304s
+  Total time for 20000 searches: 0.0674s
+  Total time for 40000 searches: 0.1475s
+
+BEST CASE SCENARIOS:
+--------------------
+  Insert time (small, random sample): 0.0002s
+  Search time (small, random sample): 0.0002s
+
+WORST CASE SCENARIOS:
+---------------------
+  Sequential Worst Case:
+    Insert: 0.0032s
+    Search: 0.0028s
+  Similar Prefixes Worst Case:
+    Insert: 0.0031s
+    Search: 0.0027s
+
+COMPARISON WITH BUILT-IN STRUCTURES:
+-------------------------------------
+  TST    - Insert: 0.2063s, Search: 0.1395s
+  Set    - Insert: 0.0036s, Search: 0.0018s
+  List   - Insert: 30.4874s, Search: 30.4088s
